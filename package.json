@@ -1,0 +1,24 @@
+{
+  "name": "restapinode",
+  "version": "1.0.0",
+  "description": "Rest api con node y postgresql",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejoVela/Rest-Api-With-Node-And-Postgresql.git"
+  },
+  "author": "Diego Restrepo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejoVela/Rest-Api-With-Node-And-Postgresql/issues"
+  },
+  "homepage": "https://github.com/AlejoVela/Rest-Api-With-Node-And-Postgresql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {}
+}
